@@ -7,4 +7,3 @@ def square_matrix_simple(matrix=[]):
             squared_row.append(num ** 2)
         squared_matrix.append(squared_row)
     return squared_matrix
-    
