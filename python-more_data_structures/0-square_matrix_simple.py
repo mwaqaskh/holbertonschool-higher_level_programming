@@ -18,11 +18,7 @@ def square_matrix_simple(matrix=[]):
     return squared_matrix
 
 # Example usage:
-input_matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-result = square_matrix_simple(input_matrix)
+result = square_matrix_simple(matrix)
 print(result)
